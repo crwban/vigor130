@@ -63,7 +63,7 @@ if ((@ARGV > 0) && ($ARGV[0] eq "autoconf")) {
   exit(0);
 }
 my $progname = $0;
-my $hostname = '192.168.1.1';  # These are the factory defaults of the Vigor 130
+my $hostname = '192.168.2.1';  # These are the factory defaults of the Vigor 130
 my $username = 'admin';
 my $password = 'admin';
 my $fakehost = '';
